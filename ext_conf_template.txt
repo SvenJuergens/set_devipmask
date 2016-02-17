@@ -1,0 +1,10 @@
+# cat=basic; type=user[EXT:set_devipmask/class.tx_setdevipmask.php:&tx_setdevipmask->getip]; label= your current IP:
+
+REMOTE_ADDR = 
+
+# cat=basic; type=string; label=Set your IP: default 127.0.0.1,::1
+devIPmask = 127.0.0.1,::1
+
+# cat=basic; type=boolean; label= Write to LocalConfiguration.php
+writeToLocalconf= 0
+
